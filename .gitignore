@@ -1,0 +1,51 @@
+# ============================================
+# ARCHIVOS IGNORADOS POR GIT
+# ============================================
+
+# Variables de entorno (SECRETOS - NUNCA SUBIR)
+.env
+
+# Datos generados por los bots
+data/*.json
+*.log
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+/tmp/
+temp/
+
+# Imágenes generadas (opcional - si no quieres versionarlas)
+# *.jpg
+# *.png
